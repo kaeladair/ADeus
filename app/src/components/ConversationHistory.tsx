@@ -117,10 +117,10 @@ function ItemSkeleton() {
   return (
     <Skeleton className="card bg-muted/20 mb-2 flex gap-8 rounded-xl px-4 py-3 shadow-sm">
       <div className="flex flex-col justify-between gap-2">
-        <Skeleton className="h-4 w-[20vw]" />
-        <Skeleton className="h-4 w-[20vw]" />
+        <Skeleton className="h-4 w-[22vw]" />
+        <Skeleton className="h-4 w-[22vw]" />
       </div>
-      <div className="ml-auto flex flex-col items-center justify-center gap-2">
+      <div className="ml-auto flex flex-col items-center justify-center gap-3">
         <Skeleton className="size-[20px]" />
         <Skeleton className="size-[20px]" />
       </div>
